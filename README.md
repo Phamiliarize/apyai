@@ -13,6 +13,19 @@ pip install -r requirements.txt
 ```
 
 ## Running the API
+Once you have a running postgresql database running, go ahead and put in the credentials or information. For our sample, we will use peewee/peewee and manabi-dev as an homage to two things that brought us into creation. Otherwise, set this to whatever you want.
+
+```
+database = {
+    "database": "manabi-dev",
+    "user":"peewee",
+    "password":"peewee",
+    "host": "127.0.0.1",
+    "port": 5432
+}
+```
+
+
 Utilize Gunicorn to run the app during development.
 
 ```
