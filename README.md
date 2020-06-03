@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the API
-Once you have a running postgresql database running, go ahead and put in the credentials or information. For our sample, we will use peewee/peewee and manabi-dev as an homage to two things that brought us into creation. Otherwise, set this to whatever you want.
+Once you have a running postgresql database running, go ahead and put in the credentials or information. For our sample, we will use peewee/peewee and manabi-dev (Manabi is Japanese for "study" ;) Let's study dev. 
 
 ```
 database = {
